@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+
+}
+
+body{
+    background-image: url("images/rg2.png") ;
+    background-size: 100%;
+   background-attachment: fixed;
+
+}
+
+div.main{
+    width: 250px;
+    margin: 150px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+    font-family: calmius Sans High;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+div.register{
+    background-color: rdba(0,0,0,0);
+    width: 150%;
+    font-size: 20px;
+    font-family: calmius Sans High;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+
+}
+
+form#register{
+    margin: 30px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: #000;
+
+
+
+}
+input#submit{
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: calmius Sans High;
+    font-weight: 700;
+    background-color: #ffe4b5;
+    cursor: pointer;
+}
+
+
+
+
